@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Free SMS Sender India",
+  "description": "Send free SMS to Indian phone numbers using Fast2SMS.",
+  "version": "1.0",
+  "permissions": ["storage", "activeTab"],
+  "host_permissions": ["https://www.fast2sms.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
